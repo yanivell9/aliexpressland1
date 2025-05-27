@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>קונים חכם באליאקספרס - הצטרפו לקבוצה!</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            overflow-x: hidden;
+        }
+
+        /* Main Content */
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+
+        header {
+            text-align: center;
+            padding: 50px 0;
+            color: white;
+        }
+
+        .logo {
+            font-size: 3em;
+            font-weight: bold;
+            margin-bottom: 10px;
+            text-shadow: 3px 3px 6px rgba(0,0,0,0.3);
+            background: linear-gradient(45deg, #FFD700, #FFA500);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        .subtitle {
+            font-size: 1.3em;
+            margin-bottom: 30px;
+            opacity: 0.9;
+        }
+
+        .hero-section {
+            background: rgba(255,255,255,0.1);
+            backdrop-filter: blur(10px);
+            border-radius: 20px;
+            padding: 50px;
+            margin: 30px 0;
+            text-align: center;
+            border: 1px solid rgba(255,255,255,0.2);
+        }
+
+        .hero-title {
+            font-size: 2.5em;
+            color: white;
+            margin-bottom: 20px;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+        }
+
+        .hero-description {
+            font-size: 1.2em;
+            color: rgba(255,255,255,0.9);
+            margin-bottom: 40px;
+            line-height: 1.6;
+        }
+
+        .features {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+            margin: 50px 0;
+        }
+
+        .feature-card {
+            background: rgba(255,255,255,0.15);
+            backdrop-filter: blur(10px);
+            padding: 30px;
+            border-radius: 15px;
+            text-align: center;
+            border: 1px solid rgba(255,255,255,0.2);
+            transition: transform 0.3s ease;
+        }
+
+        .feature-card:hover {
+            transform: translateY(-10px);
+        }
+
+        .feature-icon {
+            font-size: 3em;
+            margin-bottom: 20px;
+        }
+
+        .feature-title {
+            font-size: 1.4em;
+            color: white;
+            margin-bottom: 15px;
+            font-weight: bold;
+        }
+
+        .feature-description {
+            color: rgba(255,255,255,0.8);
+            line-height: 1.5;
+        }
+
+        .main-cta {
+            text-align: center;
+            margin: 50px 0;
+        }
+
+        .main-cta-button {
+            background: linear-gradient(45deg, #25D366, #128C7E);
+            color: white;
+            padding: 20px 50px;
+            border: none;
+            border-radius: 50px;
+            font-size: 1.5em;
+            font-weight: bold;
+            cursor: pointer;
+            text-decoration: none;
+            display: inline-block;
+            transition: all 0.3s ease;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+            animation: pulse 2s infinite;
+        }
+
+        @keyframes pulse {
+            0% { box-shadow: 0 10px 30px rgba(37, 211, 102, 0.3); }
+            50% { box-shadow: 0 10px 30px rgba(37, 211, 102, 0.6); }
+            100% { box-shadow: 0 10px 30px rgba(37, 211, 102, 0.3); }
+        }
+
+        .main-cta-button:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 15px 40px rgba(0,0,0,0.4);
+        }
+
+        footer {
+            text-align: center;
+            padding: 30px 0;
+            color: rgba(255,255,255,0.7);
+        }
+
+        @media (max-width: 768px) {
+            .hero-section {
+                padding: 30px 20px;
+            }
+            
+            .hero-title {
+                font-size: 2em;
+            }
+            
+            .logo {
+                font-size: 2.5em;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="logo">🛒 קונים חכם</div>
+            <div class="subtitle">המקום הטוב ביותר לעסקאות באליאקספרס</div>
+        </header>
+
+        <div class="hero-section">
+            <h1 class="hero-title">גלה את הסודות של קניות חכמות באליאקספרס!</h1>
+            <p class="hero-description">
+                הצטרפו לקהילה של אלפי קונים חכמים שחוסכים מאות שקלים בכל חודש. 
+                קבלו עדכונים על הנחות בלעדיות, קופונים נסתרים וטיפים מקצועיים לקניות מוצלחות.
+            </p>
+            <a href="https://chat.whatsapp.com/FEAer9fGBiS1YdmYcTZu12" class="main-cta-button" target="_blank">
+                🚀 הצטרפו עכשיו לווצאפ
+            </a>
+        </div>
+
+        <div class="features">
+            <div class="feature-card">
+                <div class="feature-icon">💰</div>
+                <div class="feature-title">עסקאות בלעדיות</div>
+                <div class="feature-description">קבלו גישה לעסקאות שלא תמצאו בשום מקום אחר - הנחות עד 90%!</div>
+            </div>
+            
+            <div class="feature-card">
+                <div class="feature-icon">🎯</div>
+                <div class="feature-title">קופונים נסתרים</div>
+                <div class="feature-description">גלו קופונים סודיים שיחסכו לכם עוד יותר כסף על כל רכישה</div>
+            </div>
+            
+            <div class="feature-card">
+                <div class="feature-icon">👥</div>
+                <div class="feature-title">קהילה תומכת</div>
+                <div class="feature-description">קבלו עזרה ומשוב מקונים מנוסים לפני כל רכישה</div>
+            </div>
+            
+            <div class="feature-card">
+                <div class="feature-icon">⚡</div>
+                <div class="feature-title">עדכונים מיידיים</div>
+                <div class="feature-description">היו הראשונים לדעת על פלאש סייל והנחות מוגבלות בזמן</div>
+            </div>
+            
+            <div class="feature-card">
+                <div class="feature-icon">🛡️</div>
+                <div class="feature-title">קניות בטוחות</div>
+                <div class="feature-description">טיפים להימנעות מרמאויות וזיהוי מוכרים אמינים</div>
+            </div>
+            
+            <div class="feature-card">
+                <div class="feature-icon">📱</div>
+                <div class="feature-title">נוחות מקסימלית</div>
+                <div class="feature-description">קבלו הכל ישירות לווצאפ - פשוט ונוח</div>
+            </div>
+        </div>
+
+        <div class="main-cta">
+            <a href="https://chat.whatsapp.com/FEAer9fGBiS1YdmYcTZu12" class="main-cta-button" target="_blank">
+                🎁 מה אתם מחכים? הצטרפו עכשיו!
+            </a>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 קונים חכם באליאקספרס. כל הזכויות שמורות.</p>
+    </footer>
+
+    <script>
+        // Add smooth scrolling
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+    </script>
+</body>
+</html>
